@@ -1,0 +1,11 @@
+variant_id,location,alt_allele,gene_symbol,ensembl_gene,transcript_id,consequence,consequence_category,impact,biotype,exon,intron,hgvsc,hgvsp,sift,sift_pred,sift_score,polyphen,polyphen_pred,polyphen_score,rsid,ref_allele,af_1kg,clinvar_sig,mane_select,distance
+rs527230153,20:138007-138007,C,DEFB126,ENSG00000125788,ENST00000382398.4,upstream_gene_variant,Upstream,MODIFIER,protein_coding,,,,,,,,,,,,T,,,NM_030931.4,4583
+rs549761952,20:139362-139362,T,DEFB126,ENSG00000125788,ENST00000382398.4,upstream_gene_variant,Upstream,MODIFIER,protein_coding,,,,,,,,,,,,G,,,NM_030931.4,3228
+rs572628942,20:143276-143276,G,DEFB126,ENSG00000125788,ENST00000382398.4,intron_variant,Intronic,MODIFIER,protein_coding,,1/1,,,,,,,,,,A,,,NM_030931.4,
+rs553434382,20:145092-145092,C,DEFB126,ENSG00000125788,ENST00000382398.4,intron_variant,Intronic,MODIFIER,protein_coding,,1/1,,,,,,,,,,G,,,NM_030931.4,
+rs557590893,20:146248-146248,G,DEFB126,ENSG00000125788,ENST00000382398.4,downstream_gene_variant,Downstream,MODIFIER,protein_coding,,,,,,,,,,,,C,,,NM_030931.4,497
+rs564773695,20:148124-148124,T,DEFB126,ENSG00000125788,ENST00000382398.4,downstream_gene_variant,Downstream,MODIFIER,protein_coding,,,,,,,,,,,,G,,,NM_030931.4,2373
+rs571043782,20:150012-150012,T,DEFB126,ENSG00000125788,ENST00000382398.4,downstream_gene_variant,Downstream,MODIFIER,protein_coding,,,,,,,,,,,,C,,,NM_030931.4,4261
+rs554842225,20:68351-68351,C,,,,intergenic_variant,Intergenic,MODIFIER,,,,,,,,,,,,,T,,,,
+rs540538026,20:76962-76962,T,,,,intergenic_variant,Intergenic,MODIFIER,,,,,,,,,,,,,C,,,,
+rs535946017,20:126310-126310,A,,,,intergenic_variant,Intergenic,MODIFIER,,,,,,,,,,,,rs2123002425,G,,,,

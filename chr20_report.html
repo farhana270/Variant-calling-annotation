@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>chr20 Annotation Report — Farhana Sayed</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',sans-serif;background:#f4f6fb;color:#1a1a2e}
+.hdr{background:linear-gradient(135deg,#0f3460,#16213e);color:white;
+      padding:40px 48px}
+.hdr h1{font-size:22px;margin-bottom:8px}
+.hdr p{font-size:13px;opacity:.78}
+.body{padding:32px 48px}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;
+        margin-bottom:28px}
+.card{background:white;border-radius:10px;padding:20px;text-align:center;
+       box-shadow:0 2px 8px rgba(0,0,0,.06)}
+.card .num{font-size:30px;font-weight:700;color:#0f3460}
+.card .lbl{font-size:11px;color:#888;text-transform:uppercase;
+            letter-spacing:.5px;margin-top:4px}
+h2{font-size:16px;color:#0f3460;border-left:4px solid #e94560;
+    padding-left:12px;margin:24px 0 14px}
+img{width:100%;border-radius:10px;
+     box-shadow:0 2px 12px rgba(0,0,0,.08);margin-bottom:24px}
+.vtable{width:100%;border-collapse:collapse;font-size:12px;
+         background:white;border-radius:10px;overflow:hidden;
+         box-shadow:0 2px 8px rgba(0,0,0,.06)}
+.vtable th{background:#0f3460;color:white;padding:9px 12px;
+            text-align:left;font-size:11px}
+.vtable td{padding:8px 12px;border-bottom:1px solid #eee;
+            vertical-align:top}
+.vtable tr:nth-child(even){background:#f8f9fd}
+.vtable tr:hover{background:#eef2ff}
+.footer{background:#0f3460;color:white;text-align:center;
+         padding:18px;font-size:12px;margin-top:24px;opacity:.9}
+@media(max-width:700px){
+  .cards{grid-template-columns:1fr 1fr}
+  .hdr,.body{padding:20px 16px}
+}
+</style>
+</head>
+<body>
+
+<div class="hdr">
+  <h1>🧬 chr20 Variant Annotation Report</h1>
+  <p>Data: 1000 Genomes Project &nbsp;|&nbsp;
+     Tool: Ensembl VEP v115 &nbsp;|&nbsp;
+     Assembly: GRCh38 &nbsp;|&nbsp;
+     Generated: 07 Apr 2026 16:32</p>
+  <p style="margin-top:6px">
+     Author: Farhana Sayed &nbsp;|&nbsp;
+     B.Tech Bioinformatics &amp; Data Science, D.Y. Patil &nbsp;|&nbsp;
+     Research: Tata Memorial Centre – ACTREC</p>
+</div>
+
+<div class="body">
+
+  <div class="cards">
+    <div class="card">
+      <div class="num">10</div>
+      <div class="lbl">Unique variants</div>
+    </div>
+    <div class="card">
+      <div class="num">10</div>
+      <div class="lbl">Total annotations</div>
+    </div>
+    <div class="card">
+      <div class="num">1</div>
+      <div class="lbl">Genes affected</div>
+    </div>
+    <div class="card">
+      <div class="num">7</div>
+      <div class="lbl">MANE Select rows</div>
+    </div>
+  </div>
+
+  <h2>Summary Plots</h2>
+  <img src="chr20_plots.png" alt="Variant Summary Plots">
+
+  <h2>Annotation Table (10 rows)</h2>
+  <table class="dataframe vtable">
+  <thead>
+    <tr style="text-align: right;">
+      <th>variant_id</th>
+      <th>location</th>
+      <th>gene_symbol</th>
+      <th>consequence</th>
+      <th>impact</th>
+      <th>sift_pred</th>
+      <th>polyphen_pred</th>
+      <th>rsid</th>
+      <th>biotype</th>
+      <th>mane_select</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>rs527230153</td>
+      <td>20:138007-138007</td>
+      <td>DEFB126</td>
+      <td>upstream_gene_variant</td>
+      <td>MODIFIER</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>protein_coding</td>
+      <td>NM_030931.4</td>
+    </tr>
+    <tr>
+      <td>rs549761952</td>
+      <td>20:139362-139362</td>
+      <td>DEFB126</td>
+      <td>upstream_gene_variant</td>
+      <td>MODIFIER</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>protein_coding</td>
+      <td>NM_030931.4</td>
+    </tr>
+    <tr>
+      <td>rs572628942</td>
+      <td>20:143276-143276</td>
+      <td>DEFB126</td>
+      <td>intron_variant</td>
+      <td>MODIFIER</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>protein_coding</td>
+      <td>NM_030931.4</td>
+    </tr>
+    <tr>
+      <td>rs553434382</td>
+      <td>20:145092-145092</td>
+      <td>DEFB126</td>
+      <td>intron_variant</td>
+      <td>MODIFIER</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>protein_coding</td>
+      <td>NM_030931.4</td>
+    </tr>
+    <tr>
+      <td>rs557590893</td>
+      <td>20:146248-146248</td>
+      <td>DEFB126</td>
+      <td>downstream_gene_variant</td>
+      <td>MODIFIER</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>protein_coding</td>
+      <td>NM_030931.4</td>
+    </tr>
+    <tr>
+      <td>rs564773695</td>
+      <td>20:148124-148124</td>
+      <td>DEFB126</td>
+      <td>downstream_gene_variant</td>
+      <td>MODIFIER</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>protein_coding</td>
+      <td>NM_030931.4</td>
+    </tr>
+    <tr>
+      <td>rs571043782</td>
+      <td>20:150012-150012</td>
+      <td>DEFB126</td>
+      <td>downstream_gene_variant</td>
+      <td>MODIFIER</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>protein_coding</td>
+      <td>NM_030931.4</td>
+    </tr>
+    <tr>
+      <td>rs554842225</td>
+      <td>20:68351-68351</td>
+      <td></td>
+      <td>intergenic_variant</td>
+      <td>MODIFIER</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>rs540538026</td>
+      <td>20:76962-76962</td>
+      <td></td>
+      <td>intergenic_variant</td>
+      <td>MODIFIER</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>rs535946017</td>
+      <td>20:126310-126310</td>
+      <td></td>
+      <td>intergenic_variant</td>
+      <td>MODIFIER</td>
+      <td></td>
+      <td></td>
+      <td>rs2123002425</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
+<div class="footer">
+  chr20 Variant Annotation Pipeline &nbsp;|&nbsp;
+  Farhana Sayed Portfolio Project 5 &nbsp;|&nbsp;
+  Tools: Ensembl VEP · Python · pandas · matplotlib
+</div>
+</body>
+</html>
